@@ -1,0 +1,241 @@
+
+/* .cs{
+    /* margin-left: 23%; */
+    /* height: 20%;
+    width: 30%;
+    position: relative;
+    display: flex; */ */
+
+/* } */
+.ps{                          
+    margin-top: 10px;                               /* for image */
+    margin-left: 50px;
+    display: inline;
+    
+}
+.container{
+    height: 400px;
+     width: 100%;                                     /*   main class for heading */
+    background-image: url('maxresdefault.jpg');
+    background-size: 100% 100%;
+    animation: change 10s infinite ease-in-out;  /*animation for changing the background photo*/           
+}
+.container h1{
+    color: white;
+    background-color: rgba(242, 138, 138, 0.906) ;
+    width: 910px;
+    height: 50px;
+                           /* for header */
+    display: inline-block;
+    text-align: center;
+    margin-left: 23%;
+    margin-top: 10%;
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif;
+    }
+     
+    
+    
+    ul li {
+    display: inline-block;
+    position: relative;               /* for dropdown menu bar */
+    }
+    ul li a {
+    display: block;
+    padding: 8px 5px;                   /* for dropdown menu bar */
+    color: #f2e3e3;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+   
+    
+    }
+    ul li ul.dropdown li {
+    display: block;
+    background: #8a8080c4;
+    margin: 1px 0px;
+                           /* for dropdown menu bar */
+    font-style: normal;
+    
+   
+    }
+     ul li ul.dropdown {
+    width:auto;
+                        /* for dropdown menu bar */
+    position: absolute;
+    /* z-index: 999; */
+    display: none;
+    } 
+    ul li a:hover {
+    background: #b6a2a250;
+                                     /* for dropdown menu bar */
+    }
+    ul li:hover ul.dropdown{
+    display: block;                      /* for dropdown menu bar */
+    }
+    .rs ul li{
+        margin-top: 0px;
+        margin-right: 40px;         /* for dropdown menu bar */
+       
+       
+    }
+    .hs{
+        background-color: rgba(0, 0, 0, 0.872);
+        height: 60px;
+        text-align: center;             /*     second div with menu bar(placement,dashboard etc) */
+        font-size: 15px;
+        
+    }
+    .hs ul li{
+        
+        margin: 10px 15px;
+
+    }
+    /* .tds li {
+        display: inline-block;
+        position: relative;
+        
+    }
+    .tds li a{
+        display: block;
+        position: absolute;
+        text-align: center;
+        display: inline;
+        color: #6d5a5a96;
+    }
+    .tds{
+        
+    } */
+    .qs{
+        background-color:rgba(37, 34, 34, 0.872);
+        color: white;                                    /*dropdown menu bar for exams*/
+        border-color:rgba(39, 36, 36, 0.872);
+    }
+    .ks{
+        background-color:rgba(37, 34, 34, 0.872);
+        color: white;                                       /*dropdown menu bar for timetable*/
+        border-color:rgba(39, 36, 36, 0.872);
+    }
+    .ls{
+        background-color:rgba(37, 34, 34, 0.872);
+        color: white;                                        /*dropdown menu bar for placement*/
+        border-color:rgba(39, 36, 36, 0.872);
+    }
+    .hs{
+        position: sticky;
+        top: 1px;
+    }
+    @keyframes change{
+           0%{
+            background-image: url('Marwadi_cikk_1.jpg');
+           }                                                 /*keyframe for changing the photo in background*/
+           50%{
+            background-image: url('gdgdgd.webp');
+           }
+    }
+    .sem{
+        
+        margin-left: 10%;
+         margin-top: 2%;         /*  arranging of sem reg text */
+        margin-bottom: 100%;
+        
+    }
+    .sem img{
+        height: 50px;
+        width: 80px;        /*  arranging of sem reg image */
+        margin-bottom: 19%;
+    }
+    .trans{
+        
+        margin-left: 10%;      /*  arranging of transportation text */
+        margin-top: 2%;
+    }
+    .trans img{
+        width: 100px;
+        margin-bottom: 20%;    /*  arranging of transportation image  */
+        
+    }
+    
+    .jk{
+        margin-top: 2%;     /*  arranging of your subject text */
+    }
+    .jk img{
+        height: 60px;
+        width: 100px;       /*  arranging of your subject image */
+        margin-bottom: 20%;    
+    }
+    
+    .important {
+        height: 170px;
+         background-color: #ece8e8; /* arranging of both sub ,trans ,sem and important shortcuts */
+        display: flex;
+        
+
+    }
+    .important  h2{
+         margin-top: 3%;     /*arranging heading of important shortcuts */
+        margin-left: 5%;
+    }
+    .bus h2{
+        margin-top: 7%;           /*arranging heading of bus transportation */   
+        color:rgb(245, 235, 235);
+    }
+    .bus h3{
+        margin-left: 23%;
+        margin-top: 5%;      /*arranging heading of bus transportation */
+        color: #f2e3e3;
+    }
+    .bus h5{
+        margin-left: 30%;
+        margin-top: 8%;
+        color: #f2e3e3;                       /*arranging heading of bus transportation */
+       background-color: rgb(243, 141, 141);
+       background-position: 15px;
+       width: 32%;
+       height: 20px;
+    }
+    .bus{
+       
+        background-image: url(download111.jpeg);
+        background-size: cover;
+        margin-left: 10%;                           /*arrangin div bus size and background  */
+        width: 705px;
+        margin-top: 4%;
+        height: 250px;
+    }
+   .table{
+    margin-top: 4%;
+    height: 250px;             /*arranging div table size and background  */
+    overflow: scroll;
+    width: 28%;
+  
+   }
+   .not{
+    height: 300px;
+    width: 46%;                     /*arranging heading of new uploads  */
+    background-color: #de4d4d;
+   }
+   .new tr{
+    width: 70%;
+   }
+   .btn{
+     height: 30px;      /*fix the height width of view btn */
+    width: 83px;
+   }
+   .new{
+    background-image: url(bg.jpeg);
+    color: white;
+   }
+   .new h1{
+    margin-top: 4%;
+    margin-left: 2%;
+   }
+   .naac h1{
+      color: white;
+       margin-top: 4%;      /* arranging full div of table and notice */
+      margin-left: 2%;
+   }
+ 
